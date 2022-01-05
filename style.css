@@ -3,30 +3,48 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Yeseva+One&display=swap');
 /* default */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 .container{
-    max-width: 1200px;
+    max-width: 1100px;
     margin: auto;
 }
 
 .flex-container-2{
-    flex:50%;
+    width:50%;
 }
 
-.flex-container-3{
-    flex: calc(100%/3);
-}
+
 /* *********************** */
 
+
 /* top section */
+.top-section{
+    margin-bottom: 100px;
+}
 .top{
     display: flex;
     justify-content: center;
 }
-
+.top-info{
+    position: relative;
+}
+.left-border{
+    position: absolute;
+top: 16px;
+left: -9px;
+display: block;
+height: 117px;
+width: 4px;
+background-color: #FF5959;
+}
 .top-info h1{
 font-size: 60px;
-font-family:'Yeseva One', cursive;;
+font-family:'Yeseva One', cursive;
 }
 
 span{
@@ -67,3 +85,55 @@ span{
 }
 
 /* ************************** */
+
+/* Mission Section */
+.mission-section h1{
+     text-align: center;
+     font-size: 48px;
+     font-family:'Poppins',sans-serif;
+}
+
+.mission-section h1 span{
+    color: #FFAD5A;
+}
+.mission{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family:'Poppins',sans-serif ;
+    
+    
+}
+.mission-info{
+    background-color: gray;
+    margin-left: 5px;
+    width: 32%;
+    border-radius: 25px;
+}
+
+.mission-info img{
+    height: 141px;
+    width: 141px;
+}
+.mission-info h3{
+    font-size: 24 px;
+    font-weight: 600;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+.mission-info p{
+    font-size: 16px;
+    padding: 30px 30px 30px 15px;
+    
+}
+#mission{
+    background-color: #4f9da631;
+}
+
+#vision{
+    background-color: #ff59593b;
+}
+#goal{
+    background-color: #fff4d6;
+}
+/* ***************************** */
