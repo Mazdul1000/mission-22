@@ -1,7 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Manrope&family=Poppins:wght@400;600;700&family=Yeseva+One&display=swap');
+
 /* default */
 *{
     box-sizing: border-box;
@@ -24,7 +24,7 @@
 
 /* top section */
 .top-section{
-    margin-bottom: 100px;
+    margin: 100px 0;
 }
 .top{
     display: flex;
@@ -87,6 +87,9 @@ span{
 /* ************************** */
 
 /* Mission Section */
+.mission-section{
+    margin-bottom: 100px;
+}
 .mission-section h1{
      text-align: center;
      font-size: 48px;
@@ -137,3 +140,123 @@ span{
     background-color: #fff4d6;
 }
 /* ***************************** */
+
+/* Develop Section */
+
+.develop-section{
+ margin-bottom: 100px;
+}
+
+.develop{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.develop-info{
+    width: 60%;
+    padding-left: 30px;
+}
+
+.develop-img{
+    width: 30%;
+}
+.develop-img img{
+    height: 400px;
+    width: 400px;
+}
+
+.develop-info h1{
+           font-size: 36px;
+           font-family:'Poppins',sans-serif;
+           font-weight: 700;
+           margin-bottom: 30px;
+           color: #3E3E3E;
+}
+
+.develop-info p{
+    font-size: 18px;
+    font-family:'Poppins',sans-serif;
+    margin-bottom: 40px;
+}
+
+.develop-info a{
+    color: #fff;
+    background-color: #FF5959;
+    padding: 14px 43px;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    border-radius: 5px;
+}
+/* ******************************* */
+
+/* Community Section */
+.community{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.community-info{
+    width: 60%;
+    padding-left: 30px;
+}
+.community-info h1{
+    font-size: 36px;
+    font-family:'Poppins',sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #3E3E3E;
+}
+.community-info p{
+    font-size: 18px;
+    font-family:'Poppins',sans-serif;
+    margin-bottom: 40px;
+    color: #3E3E3E;
+}
+.community-info a{
+    color: #fff;
+    background-color: #FF5959;
+    padding: 14px 43px;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    border-radius: 5px;
+}
+.community-img{
+    width: 30%;
+}
+
+.community-img img{
+    height: 400px;
+    width: 400px;
+}
+/* ********************************** */
+
+/* Blog Section */
+
+/* *************************************** */
+
+/* Footer */
+footer{
+    
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer h3{
+    font-size: 36px;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+}
+
+footer h3 span{
+    color: #FF5959;
+}
+footer p{
+    font-size: 16px;
+    font-family:'Manrope', sans-serif;
+    color: #D9DBE1;
+}
+
+/* ************************************** */
