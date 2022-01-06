@@ -65,9 +65,15 @@ span{
     text-decoration: none;
     font-family: 'Poppins',sans-serif;
     border-radius: 5px;
+    border: 3px solid #FF5959;
 
 }
 
+.top-info a:hover{
+    color: #FF5959;
+    background: transparent;
+    transition-duration: 0.4s;
+}
 #scroll{
     margin-top: 40px;
     font-size: 14px;
@@ -108,7 +114,7 @@ span{
     
 }
 .mission-info{
-    background-color: gray;
+    
     margin-left: 5px;
     width: 32%;
     border-radius: 25px;
@@ -187,10 +193,20 @@ span{
     text-decoration: none;
     font-family: 'Poppins',sans-serif;
     border-radius: 5px;
+    transition-duration: 0.4s;
+    border: 3px solid #FF5959;
+}
+
+.develop-info a:hover{
+    color: #FF5959;
+    background: transparent;
 }
 /* ******************************* */
 
 /* Community Section */
+#community-section{
+    margin-bottom: 100px;
+}
 .community{
     display: flex;
     justify-content: space-between;
@@ -221,6 +237,12 @@ span{
     text-decoration: none;
     font-family: 'Poppins',sans-serif;
     border-radius: 5px;
+    transition-duration: 0.4s;
+    border: 3px solid #FF5959;
+}
+.community-info a:hover{
+    color: #FF5959;
+    background: transparent;
 }
 .community-img{
     width: 30%;
@@ -233,6 +255,79 @@ span{
 /* ********************************** */
 
 /* Blog Section */
+
+#blog-section{
+    margin-bottom: 100px;
+}
+#blog-section h1{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Poppins',sans-serif;
+    margin-bottom: 50px;
+    text-align: center;
+    border-bottom: 4px solid #FF5959;
+    line-height:70px ;
+}
+.blog-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog{
+    
+    width: 30%;
+    margin:0 15px 40px 0;
+}
+
+.blog img{
+    height: 190px;
+    width: 330px;
+    border-radius: 3px;
+}
+
+.blog p{
+    font-size: 14px;
+    color: rgb(117, 115, 115);
+    padding-left: 5px;
+    margin-bottom: 5px;
+    font-family:'Poppins',sans-serif;;
+}
+
+.blog a{
+    text-decoration: none;
+    font-size: 22px;
+    font-family:'Poppins',sans-serif;
+    color: #3E3E3E;
+    font-weight: 600;
+    transition-duration: 0.4s;
+}
+
+.blog a:hover{
+    color: #FF5959;
+}
+
+#see-more-btn{
+    color: #fff;
+background-color: #FF5959;
+padding: 14px 87px;
+text-decoration: none;
+font-family: 'Poppins',sans-serif;
+border-radius: 5px;
+display: block;
+height: 55px;
+width: 350px;
+text-align: center;
+margin: 0 auto;
+border: 3px solid #FF5959;
+transition-duration: 0.4s;
+}
+
+#see-more-btn:hover{
+    color: #FF5959;
+    background: transparent;
+}
 
 /* *************************************** */
 
